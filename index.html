@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl_PL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home budget</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="logo-nav">
+      <img class="logo-img" src="/images/budget_belt.jpg" alt="tight budget" />
+    <!-- Budget sum -->
+      <h2 class="afford-outgo"><span id="allMoney"></span></h2>
+    </header>
+      <main class="section">
+        <!-- Income -->
+        <div class="incomes">
+          <h3>income<span></span></h3>
+          <div>
+            <!-- Income name -->
+            <div>
+              <input
+                class="inpuText"
+                id="incomeName"
+                type="text"
+                name="name"
+                placeholder="enter the title"
+              />
+            </div>
+            <!-- Income value-->
+            <div>
+              <input
+                class="inpuText"
+                id="incomeValue"
+                type="number"
+                name="name"
+                placeholder="enter the sum"
+                required
+              />
+            </div>
+            <!-- Add button -->
+            <div>
+              <button type="submit" id="addIncome" class="submit-button"></button>
+            </div>
+          </div>
+          <!-- List add -->
+          <div>
+            <ul id="incomeList"></ul>
+          </div>
+          <!-- Sum income -->
+          <div>
+            <h4>
+              total:&nbsp;<span id="sumIncome"></span>
+            </h4>
+          </div>
+        </div>
+
+        <!-- Outgo -->
+        <div class="expenses">
+          <h3>outgo<span</span></h3>
+
+          <div>
+            <!-- Outgo name -->
+            <div>
+              <input
+                class="inpuText"
+                id="expenseName"
+                type="text"
+                name="name"
+                placeholder="enter the title"
+                required
+              />
+            </div>
+            <div>
+              <input
+                class="inpuText"
+                id="expenseValue"
+                type="number"
+                name="name"
+                placeholder="enter the sum"
+                required
+              />
+            </div>
+            <div>
+              <button type="submit" id="addOutgo" class="submit-button"></button>
+            </div>
+          </div>
+          <div>
+            <ul id="expenseList"></ul>
+          </div>
+          <div>
+            <h4>
+              total:&nbsp;<span id="sumExpense"></span>
+            </h4>
+          </div>
+        </div>
+      </main>
+    <script src="script.js"></script>
+  </body>
+</html>
