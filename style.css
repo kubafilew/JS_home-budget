@@ -17,17 +17,17 @@ body {
   background-color: white;
 }
 .logo-img {
-  width: 200px;
-  height: 200px;
+  width: 40vw;
+  height: 40vh;
   margin: 0 auto 0 auto;
 }
 .afford-outgo {
+  width: auto;
   margin: auto auto;
-  width: 60vw;
+  /* width: 60vw; */
   color: #ec8a5b;
-  font-size: 3.5vw;
-  text-align: center;
-  text-align: center;
+  /* font-size: 4.5vw; */
+  /* text-align: center; */
 }
 .section {
   background-color: rgba(234, 138, 90, 0.9);
@@ -47,54 +47,67 @@ body {
   font-size: 2vw;
 }
 .title {
-  font-size: 2.5vw;
+  font-size: 3vw;
+  color: white;
 }
 
 .submit-button {
   background-color: rgba(19, 245, 19, 0.5);
-  width: 16vw;
+  width: 30vw;
   height: 2.3vh;
 }
 #sumIncome {
   font-size: large;
   font-weight: bold;
   text-align: center;
-  font-size: 3.5vh;
+  font-size: 4.5vh;
 }
 #sumExpense {
   font-size: large;
   font-weight: bold;
   text-align: center;
-  font-size: 3.5vh;
+  font-size: 4.5vh;
 }
 #allMoney {
   font-size: large;
   font-weight: bold;
+  font-style: italic;
   text-align: center;
-  font-size: 3.5vh;
+  font-size: 5vh;
 }
 .edit {
   background-color: rgba(255, 238, 0, 0.5);
-  width: 8vw;
+  width: 15vw;
   height: 2.3vh;
 }
 .delete {
   background-color: rgba(254, 23, 23, 0.5);
-  width: 8vw;
+  width: 15vw;
   height: 2.3vh;
 }
 .done {
   background-color: rgba(19, 245, 19, 0.5);
-  width: 8vw;
+  width: 7vw;
   height: 2.3vh;
 }
 .inpuText {
-  font-size: 2.3vh;
+  font-size: 4.3vh;
   font-family: "Alegreya Sans SC", sans-serif;
-  width: 16vw;
-  height: 3vh;
+  width: 30vw;
+  height: 4vh;
 }
 .total {
-  font-size: 3.3vh;
-  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 4.3vh;
+  /* font-family: "Alegreya Sans SC", sans-serif; */
+  text-align: center;
+  color: white;
+}
+span {
+  font-size: 4vh;
+  text-align: center;
+}
+.value {
+  color: white;
+  font-size: 4.3vh;
+  text-align: center;
 }

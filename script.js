@@ -114,12 +114,12 @@ const allMoney = document.querySelector("#allMoney");
 function allBudget() {
   const budget = sumIncomeValue() - sumExpenseValue();
   if (budget > 0) {
-    return (allMoney.textContent = "your account is: " + "\xa0" + budget);
+    return (allMoney.textContent = "your account is  " + "\xa0" + budget);
   } else if (budget === 0) {
     return (allMoney.textContent = "you are at zero");
   } else {
     return (allMoney.textContent =
-      "you are under the dash... :" + "\xa0" + budget);
+      "you are under the dash... " + "\xa0" + budget);
   }
 }
 
