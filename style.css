@@ -25,7 +25,7 @@ body {
   margin: auto auto;
   width: 60vw;
   color: #ec8a5b;
-  font-size: 2.5vw;
+  font-size: 3.5vw;
   text-align: center;
   text-align: center;
 }
@@ -46,6 +46,10 @@ body {
   list-style-type: none;
   font-size: 2vw;
 }
+.title {
+  font-size: 2.5vw;
+}
+
 .submit-button {
   background-color: rgba(19, 245, 19, 0.5);
   width: 16vw;
@@ -55,11 +59,19 @@ body {
   font-size: large;
   font-weight: bold;
   text-align: center;
+  font-size: 3.5vh;
 }
 #sumExpense {
   font-size: large;
   font-weight: bold;
   text-align: center;
+  font-size: 3.5vh;
+}
+#allMoney {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3.5vh;
 }
 .edit {
   background-color: rgba(255, 238, 0, 0.5);
@@ -77,5 +89,12 @@ body {
   height: 2.3vh;
 }
 .inpuText {
+  font-size: 2.3vh;
+  font-family: "Alegreya Sans SC", sans-serif;
+  width: 16vw;
+  height: 3vh;
+}
+.total {
+  font-size: 3.3vh;
   font-family: "Alegreya Sans SC", sans-serif;
 }
