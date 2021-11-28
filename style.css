@@ -55,6 +55,7 @@ body {
   background-color: rgba(19, 245, 19, 0.5);
   width: 30vw;
   height: 2.3vh;
+  cursor: pointer;
 }
 #sumIncome {
   font-size: large;
@@ -79,11 +80,13 @@ body {
   background-color: rgba(255, 238, 0, 0.5);
   width: 15vw;
   height: 2.3vh;
+  cursor: pointer;
 }
 .delete {
   background-color: rgba(254, 23, 23, 0.5);
   width: 15vw;
   height: 2.3vh;
+  cursor: pointer;
 }
 .done {
   background-color: rgba(19, 245, 19, 0.5);
